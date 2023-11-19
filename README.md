@@ -27,3 +27,6 @@ Example:
 ```
 python main.py --task sequential --dataset beauty --model_size small --dynamic_length 0
 ```
+
+## Pretrained Checkpoints
+See [CHECKPOINTS.md](snap/CHECKPOINTS.md).
