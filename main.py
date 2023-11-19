@@ -270,7 +270,7 @@ def main(args):
         return avg_metric_1 / cnt, avg_metric_2 / cnt
 
     def seq_prompt_eval(eval_loader, prompt_prefix=None, prompt_suffix=None, dynamic_prompt=None):
-        global task
+        # global task
         all_info = []
         for i, batch in tqdm(enumerate(eval_loader)):
             with torch.no_grad():
@@ -303,8 +303,8 @@ def main(args):
                     pass
             ui_scores[i] = pred_dict
         
-        if task == 'traditional':
-            print(evaluate_all(ui_scores, gt, 1))
+        # if task == 'traditional':
+        #     print(evaluate_all(ui_scores, gt, 1))
         print(evaluate_all(ui_scores, gt, 5))
         print(evaluate_all(ui_scores, gt, 10))
 
