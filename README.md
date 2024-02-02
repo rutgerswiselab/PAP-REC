@@ -2,6 +2,19 @@
 
 This repo presents implementation of PAP-REC: Personalized Automatic Prompt for Recommendation Language Model.
 
+## Citation
+
+```
+@misc{li2024paprec,
+      title={PAP-REC: Personalized Automatic Prompt for Recommendation Language Model}, 
+      author={Zelong Li and Jianchao Ji and Yingqiang Ge and Wenyue Hua and Yongfeng Zhang},
+      year={2024},
+      eprint={2402.00284},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
+```
+
 ## Requirements
 
 - Python 3.9.7
@@ -36,8 +49,6 @@ python main.py --task sequential --dataset beauty --model_size small --dynamic_l
 ## Pretrained Checkpoints
 See [CHECKPOINTS.md](snap/CHECKPOINTS.md).
 
-## Citation
-
-The citation of our paper will be updated soon.
+## Reference
 
 This codebase is developed based on [P5](https://github.com/jeykigung/P5).
